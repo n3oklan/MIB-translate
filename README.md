@@ -1,6 +1,4 @@
 # MIB-translate
-Convert MIBs Files to Zabbix Templates
+Převod souborů MIB do šablon Zabbix -> .MIB na .XML:
 
-Fórmula utilizada para converter arquivos .MIB para XML:
-
-snmptranslate -Tz -m ./A100-R1-MIB.mib | ./mib2zabbix -o .1.3.6.1.4.1 -f template-a100-r1-mib.xml -N a100-r1-mib
+snmptranslate -Tz -m ./soubor.mib | ./mib2zabbix -o .1.3.6.1.4.1 -f sablona-soubor.xml -N jmeno_sablony
